@@ -4,22 +4,22 @@
 [Array Methods](https://www.w3schools.com/js/js_array_methods.asp)
 
 JavaScript Array Methods are inbuilt Js functions that are associated with arrays, they are of different types, they include:
-**Array length** - Returns the length (size) of an array
-**Array toString()** - Converts an array to a string of the array values(i.e, converts it from an array ([]) to its string representation separated by commas)
-**Array pop()** - Removes the last element from an array.
-**Array push()** - Adds a new element to the end of an array.
-**Array shift()** - Removes the first element in an array and shifts all other elements to a lower index
-**Array unshift()** - Adds a new element to the beginning of an array and return a new array length
+* **Array length** - Returns the length (size) of an array
+* **Array toString()** - Converts an array to a string of the array values(i.e, converts it from an array ([]) to its string representation separated by commas)
+* **Array pop()** - Removes the last element from an array.
+* **Array push()** - Adds a new element to the end of an array.
+* **Array shift()** - Removes the first element in an array and shifts all other elements to a lower index
+* **Array unshift()** - Adds a new element to the beginning of an array and return a new array length
 **Array join()** - Joins all array elements into a string with an optional separator.
 **Array delete()** - It can be used to Deletes array elements, but it leaves undefined holes therefore pop() or shift() should be used instead.
-**Merging (Concatenating) Arrays** - Creates a new array by merging existing arrays (to concert more than 1 array into an existing array use comma i.e arr1.concat(arr2, arr3)).
-**Array flat()** - Creates a new array with sub-array elements concatenated to a specified depth.
-**Array splice()** - Adds new items to an array or removes items using clever parameter setting 
+* **Merging (Concatenating) Arrays** - Creates a new array by merging existing arrays (to concert more than 1 array into an existing array use comma i.e arr1.concat(arr2, arr3)).
+* **Array flat()** - Creates a new array with sub-array elements concatenated to a specified depth.
+* **Array splice()** - Adds new items to an array or removes items using clever parameter setting 
 to use - (x, y, "new item", "new item" ...)
 x - the position where the new elements should be added (spliced in)
 y - defines how many elements should be removed.
 new items - define the new elements to be added.
-**Array slice()** - Slices out a piece of an array into a new array without modifying the source array. 
+* **Array slice()** - Slices out a piece of an array into a new array without modifying the source array. 
 to use - (x, y)
 x - starting point
 y - ending point (but not ibncluded).
