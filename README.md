@@ -10,8 +10,8 @@ JavaScript Array Methods are inbuilt Js functions that are associated with array
 * **Array push()** - Adds a new element to the end of an array.
 * **Array shift()** - Removes the first element in an array and shifts all other elements to a lower index
 * **Array unshift()** - Adds a new element to the beginning of an array and return a new array length
-**Array join()** - Joins all array elements into a string with an optional separator.
-**Array delete()** - It can be used to Deletes array elements, but it leaves undefined holes therefore pop() or shift() should be used instead.
+* **Array join()** - Joins all array elements into a string with an optional separator.
+* **Array delete()** - It can be used to Deletes array elements, but it leaves undefined holes therefore pop() or shift() should be used instead.
 * **Merging (Concatenating) Arrays** - Creates a new array by merging existing arrays (to concert more than 1 array into an existing array use comma i.e arr1.concat(arr2, arr3)).
 * **Array flat()** - Creates a new array with sub-array elements concatenated to a specified depth.
 * **Array splice()** - Adds new items to an array or removes items using clever parameter setting 
